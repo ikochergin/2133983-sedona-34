@@ -4,11 +4,10 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
   </head>
-
   <body>
     <header class="page-header">
-      <a class="navigation-logo" href="index.html">
-        <img class="page-header-logo" alt="Логотип городка «Седона»." src="">
+      <a class="header-link" href="index.html">
+        <img class="header-logo" alt="Логотип городка «Седона»." src="">
       </a>
       <nav class="navigation">
         <ul class="navigation-list">
@@ -22,27 +21,22 @@
             <a class="navigation-link" href="catalog.html">Гостинницы</a>
           </li>
         </ul>
-
-        <ul class="navigation-list navigation-user">
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <span class="visually-hidden">Поиск</span>
-            </a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <span class="visually-hidden">В избранное</span>
-            </a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="">Вход</a>
-          </li>
-        </ul>
       </nav>
+      <ul class="buttons-list">
+        <li class="buttonslist-item">
+          <!-- вокруг этой кнопки в перспективе должен быть "form" и "input", но в фигме этого нет -->
+          <button class="buttonslist-search" type="button">Искать</button>
+        </li>
+        <li class="buttonslist-item">
+          <!-- вокруг этой кнопки в перспективе должен быть js, заменяющий нажатие ctrl+D ? -->
+          <button class="buttonslist-addtofav" type="button">В избранное</button>
+        </li>
+      </ul>
+      <!-- совершенно безумный элемент. как минимум, не вписывается в предыдущий "ul" -->
+      <button class="buttonslist-wannahere" type="button">ХОЧУ СЮДА!</button>
     </header>
-
     <main class="main-index">
-      <h1 class="visually-hidden">Барбершоп «Бородинский»</h1>
+      <h1 class="visually-hidden">Городок «Седона»</h1>
       <img class="logo" src="" alt="Логотип Барбершопа «Бородинский».">
 
       <section class="advantages">
